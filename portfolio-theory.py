@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy.optimize import minimize
 from cvxopt import matrix, solvers
 sns.set_style("darkgrid")
 solvers.options["show_progress"] = False
